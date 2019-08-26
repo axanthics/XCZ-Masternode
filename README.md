@@ -14,12 +14,12 @@ sudo chmod +x XCZ_masternode.sh
 ```
 
 
-Wait till Node is fully Synced with blockchain.
-For check enter below command.
+Please wait until the Node is fully synced with the blockchain.
+To check the status enter below command.
 
 `xchainz-cli getinfo`
 
-When Node Fully Synced enter below command for check masternode status.
+When the Node is fully synced, enter the command below to check masternode status.
 
 `xchainz-cli getmasternodestatus`
 
