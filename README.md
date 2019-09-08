@@ -80,13 +80,19 @@ startmasternode "alias" "0" "MN1"
 ## Usage:
 
 xchainz-cli getinfo
+
 xchainz-cli mnsync status
+
 xchainz-cli masternode status
+
 Also, if you want to check/start/stop XChainZ , run one of the following commands as root:
 
 Ubuntu 16.04:
 
 systemctl status xchainz #To check the service is running.
+
 systemctl start xchainz #To start XChainZ service.
+
 systemctl stop xchainz #To stop XChainZ service.
+
 systemctl is-enabled xchainz #To check whetether XChainZ service is enabled on boot or not.
