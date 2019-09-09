@@ -56,17 +56,17 @@ fi
 genkey=$1
 clear
 
-echo -e "${GREEN} ------- XChainZ MASTERNODE INSTALLER v1.0.0--------+
+echo -e "${GREEN} +------ XChainZ MASTERNODE INSTALLER v1.0.0--------+
  |                                                  |
- |                                                  |::
- |       The installation will install and run      |::
- |        the masternode under a user xchainz.         |::
- |                                                  |::
- |        This version of installer will setup      |::
- |           fail2ban and ufw for your safety.      |::
- |                                                  |::
- +------------------------------------------------+::
-   ::::::::::::::::::::::::::::::::::::::::::::::::::S${NC}"
+ |                                                  |
+ |       The installation will install and run      |
+ |        the masternode under a user xchainz.      |
+ |                                                  |
+ |        This version of installer will setup      |
+ |           fail2ban and ufw for your safety.      |
+ |                                                  |
+ +--------------------------------------------------+
+   ::::::::::::::::::::::::::::::::::::::::::::::::${NC}"
 echo "Do you want me to generate a masternode private key for you?[y/n]"
 read DOSETUP
 
