@@ -260,7 +260,7 @@ EOF
     xchainzd -daemon
 #Finally, starting daemon with new xchainz.conf
 printf '#!/bin/bash\nif [ ! -f "~/.xchainz/xchainz.pid" ]; then /usr/local/bin/xchainzd -daemon ; fi' > /root/xchainzauto.sh
-chmod -R 755 xchainzauto.sh
+chmod -R 755 ../xchainzauto.sh
 #Setting auto start cron job for xchainz
 if ! crontab -l | grep "xchainzauto.sh"; then
     (crontab -l ; echo "*/5 * * * * /root/xchainzauto.sh")| crontab -
