@@ -52,7 +52,7 @@ After the MN is up and running, you need to configure the desktop wallet accordi
 3. Send 1000 XChainZ to MN1.
 4. Wait for 15 confirmations.
 5. Go to Tools -> "Debug console - Console"
-6. Type the following command: masternode outputs
+6. Type the following command: getmasternodeoutputs
 7. Within the installed XChainZ application directory on your operating system, open the masternode.conf file
 (e.g., for mac: nano "Library/Application Support/XChainZ/masternode.conf")
 8. Add the following entry:
@@ -95,4 +95,4 @@ systemctl start xchainz #To start XChainZ service.
 
 systemctl stop xchainz #To stop XChainZ service.
 
-systemctl is-enabled xchainz #To check whetether XChainZ service is enabled on boot or not.
+systemctl is-enabled xchainz #To check whether XChainZ service is enabled on boot or not.
